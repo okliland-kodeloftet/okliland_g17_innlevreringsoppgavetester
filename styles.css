@@ -8,7 +8,7 @@ header {
     align-items: center;
   }
   
-  ul {
+  .list_header{
     display: flex;
     padding: 0;
     margin: 0;
@@ -16,7 +16,7 @@ header {
     list-style-type: none;
   }
   
-  .hero {
+  .hero,.projects {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -41,5 +41,8 @@ header {
   }
   
   .list_main{
-
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
   }
