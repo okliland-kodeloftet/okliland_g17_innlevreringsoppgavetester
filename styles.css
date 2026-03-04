@@ -50,3 +50,15 @@ header {
     margin: 0;
     gap: 32px;
   }
+
+
+
+  aside {
+    width: 25%;
+    margin-left: 15px;
+    float: right;
+    color: whitesmoke;
+    font-style: italic;
+    background: linear-gradient(to right, #4286f4, #373b44);
+    border-radius: 5px;
+  }
