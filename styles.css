@@ -16,14 +16,14 @@ header {
     list-style-type: none;
   }
   
-  .hero,.projects {
+  .hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .about {
     height: 100vh;
     display: flex;
@@ -44,6 +44,15 @@ header {
     width: 600px;
   }
   
+  .projects{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   .list_main{
     display: flex;
     padding: 0;
