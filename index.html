@@ -25,16 +25,15 @@
 
       <section class="hero">
 
-        <h2>Semantisk HTML</h2>
+        <h2 class="heroTitle">Velkommen</h2>
     
         <div>
-      <p>
+      <p class="heroText">
         Dette er først og fremst en test nettside for å teste ut forskjellige semantiske ting som en kan putte inn i en nettside. En av tingene er for eksempel <strong>Strong</strong>, som betyr at noe er viktig, mens <b>B</b>, bare betyr at det er i <b>bold</b>. 
         En annen ting vi skal teste ut er <em>EM</em> som betyr kursiv(<em>men også her betyr det at det er viktig</em>), mens bare en <i>i</i> betyr at det kun er i kursiv.
         <!-- Strong og em er viktig mens b og i er kun visuelt -->
       </p>
       </div>
-      <img class="aboutImg" src="https://scaler.com/topics/images/aside-tag-in-html-1.webp" alt="Semantisk HTML" width="400" height="auto"/>
         
     
 
@@ -43,8 +42,9 @@
 
 
     <section class="about">
+      <div class="aboutContainer">
         <h2>Kort om meg</h2>
-      <div >
+
         <ul class="list_main">
           <li>Bachelor i <b>Digital medieproduksjon</b></li>
           <li>Har jobbet med media siden <b>ca 2011</b>.
@@ -52,53 +52,51 @@
           </li>
           <li>Vil nå prøve å lære <b>koding</b></li>
       </ul>
+      <p>
+        Dette er  den andre seksjonen i min MAIN. Her har jeg blant annet brukt en "img" link for å sette inn bilder. Husk at du kan endre størrelsen på bilde ved å endre på W=xxx inne på URL-en til bildet.
+
+      </p>
       </div>
   
       <img class="aboutimg"
         src="https://images.unsplash.com/photo-1770215962687-93b6b860add7?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="a-traditional-junk-boat-sails-on-the-water-at-night"
+
       />
-    </section>
-
-
-
-
-
-    <section class="hero">
-      <!-- Den første seksjonen i MAIN heter nesten alltid HERO eller HOME(HJEM) -->
-      <section>
-        <!-- Andre seksjon =  About/Om meg -->
-        <p>
-          Det der var den andre seksjonen i min MAIN. Her har jeg blant annet brukt en "img" for å sette inn bilder. Husk at du kan endre størrelsen på bilde ved å endre på W=xxx inne på URL-en til bildet.
-        </p>
-      </section>
-
     </section>
   
 
 
- 
-    
+  
 
   <section class="projects">
     <!-- Andre seksjon =  About/Om meg -->
     <h2>Her er en liste over mine kodeprosjekt sålangt</h2>
-    <p>  
-        <ol class="list_main">
-          <li>Undervisning nr siden</li>
-          <li>Denne portfolio siden</li>
-          <Li>Spotify.com</Li>
-        </ol>
-    </p>
+
+    <div class="projectContainer">
+
+    <div class="projectCard">
+
+      <h3>Prosjekt 1</h3>
+      <p>Undervisningssidene</p>
+    </div>
+
+      <div class="projectCard">
+        <h3>Prosjekt 2</h3>
+        <p>Denne innleveringen</p>
+      </div>
+
+      <div class="projectCard">
+        <h3>Prosjekt 3</h3>
+        <p>Spotify.com</p>
+      </div>
+
+    </div>
+
   </section>
 
 
- 
-
-
-<section>
-
-<Section class="hero">
+<Section class="vissteduat">
 
 <h2>Visste du at...?</h2>
 <ol><li>ol betyr organized list(med tall) </li></ol>
@@ -109,14 +107,16 @@
 
 </section>
 
-<section class="hero">
+<section class="nyttbilde">
 
 <h2>Her er et nytt bilde</h2>
-<img src="https://images.unsplash.com/photo-1771308457227-efd671c6c347?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bilde av dekorativ blekksprut i japan">
+<img class="nyttbildeImg" src="img/Matrix.avif" alt="Matrix">
+
+<p> <i>(Dette er et bilde som er lastet opp til Stackblitz istedet for å bruke link, og har endret størrelse ved å bruke styles.css) </i> </p>
 
 </section>
 
-<Section class="hero">
+<Section class="aside">
 
 <article>
 <h1>Test på Aside</h1>
@@ -131,7 +131,7 @@
 
 </Section>
 
-<section class="hero">
+<section class="hjemmesideLink">
   <p>
     <a href="https://okliland.no/">Dette er en link til min andre Hjemmeside</a>
   </p>

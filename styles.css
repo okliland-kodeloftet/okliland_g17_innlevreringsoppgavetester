@@ -22,15 +22,43 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzY2MDU3LWltYWdlLWt3dnh4eDV4LmpwZw.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
   }
 
-  .about {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  .heroTitle{
+      color: white;
+  background-color: #010100b3;
+  width: 300px;
+  padding: 16px;
+  text-align: center;
   }
+
+  .heroText{
+    background-color: #010100b3;
+    
+    color: white;
+    width: 300px;
+    padding: 16px;
+    }
+
+
+    .about{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .aboutContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+width: 50%;
+}
   
   .aboutText {
     width: 400px;
@@ -42,15 +70,33 @@ header {
     align-items: center;
     height: 600px;
     width: 600px;
+    border: 10px;
+    margin: 10px;
+    
   }
   
   .projects{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
+
+  .projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+
+  }
+
+  .projectCard{
+    width: 300px;
+    border: 1px solid #010100;
+    border-radius: 10px;
+    text-align: center;
+}
 
 
   .list_main{
@@ -71,3 +117,41 @@ header {
     background: linear-gradient(to right, #4286f4, #373b44);
     border-radius: 5px;
   }
+
+  .vissteduat{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .nyttbilde{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nyttbildeImg{
+  height: 400px;
+  width: 500px;
+}
+
+
+.hjemmesideLink{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.andreseksjon{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
